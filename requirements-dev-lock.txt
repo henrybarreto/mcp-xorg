@@ -1,0 +1,11 @@
+# Pinned dev/test/lint dependency closure, on top of requirements-lock.txt.
+# Regenerate with: pip install -e ".[test]" ruff && pip freeze --exclude-editable
+coverage==7.14.3
+iniconfig==2.3.0
+packaging==26.2
+pluggy==1.6.0
+Pygments==2.20.0
+pytest==9.1.1
+pytest-cov==7.1.0
+pytest-mock==3.15.1
+ruff==0.15.18
